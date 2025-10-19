@@ -3,40 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dallas Apartment Comparison</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Housing Near AWS Office</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Dallas Apartment Comparison</h1>
-            <div class="subtitle">Comprehensive Analysis of 22 Properties Near AWS Office</div>
-        </header>
-        
-        <div class="intro">
-            <p>This detailed comparison ranks 22 apartment communities based on proximity to the AWS office, rental costs, amenities, safety features, and overall value. All properties have been thoroughly researched and verified for accuracy.</p>
-            
-            <div class="key-stats">
-                <div class="stat">
-                    <div class="stat-value">22</div>
-                    <div class="stat-label">Properties Compared</div>
+            <div class="header-content">
+                <div class="logo-area">
+                    <h1>Housing Near Dallas Office</h1>
                 </div>
-                <div class="stat">
-                    <div class="stat-value">8</div>
-                    <div class="stat-label">Within 1 Mile of AWS</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-value">14</div>
-                    <div class="stat-label">Under $1,500/Month</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-value">5</div>
-                    <div class="stat-label">With Special Offers</div>
+                <div class="header-stats">
+                    <div class="mini-stat">
+                        <span class="mini-value">22</span>
+                        <span class="mini-label">Properties</span>
+                    </div>
+                    <div class="mini-stat">
+                        <span class="mini-value">$1500-1700</span>
+                        <span class="mini-label">Budget</span>
+                    </div>
                 </div>
             </div>
-        </div>
+            <div class="destination">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>AWS Office: 13355 Noel Rd, Dallas, TX 75240</span>
+            </div>
+        </header>
         
         <div class="filter-container">
             <div class="search-box">
@@ -85,372 +79,280 @@
                     <tr>
                         <th>Rank</th>
                         <th>Property Name</th>
-                        <th>Area</th>
                         <th>Address</th>
-                        <th>Distance to AWS</th>
-                        <th>Commute Time</th>
-                        <th>Rent (700 sq ft range)</th>
-                        <th>Actual Size</th>
-                        <th>Within Budget?</th>
-                        <th>Gated?</th>
-                        <th>Special Offers</th>
-                        <th>Key Pros</th>
-                        <th>Key Cons</th>
-                        <th>Recommendation</th>
+                        <th>Area</th>
+                        <th>Distance</th>
+                        <th>Commute</th>
+                        <th>Rent</th>
+                        <th>Size</th>
+                        <th>Budget</th>
+                        <th>Review Summary</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td class="rank">1</td>
                         <td class="property-name">NEO at Midtown</td>
+                        <td class="address">14145 Noel Rd, Dallas TX 75254</td>
                         <td class="area">Midtown</td>
-                        <td class="address">14145 Noel Rd</td>
                         <td class="distance">0.6 mi</td>
                         <td class="commute">2 min</td>
                         <td class="rent">$1,193-$1,299</td>
-                        <td class="size">678 sq ft (1BR/1BA)</td>
+                        <td class="size">678 sq ft</td>
                         <td class="budget yes">YES</td>
-                        <td class="gated">Yes</td>
-                        <td class="offers">1 month FREE</td>
-                        <td class="pros">Close to office</td>
-                        <td class="cons">Older property (1999)</td>
-                        <td><span class="recommendation top-choice">TOP CHOICE - Best overall value!</span></td>
+                        <td class="review">Quiet, modern, clean; excellent leasing staff and amenities. Some maintenance issues and inconsistent pricing when signing.</td>
                     </tr>
                     <tr>
                         <td class="rank">2</td>
-                        <td class="property-name">The Entro At Midtown</td>
-                        <td class="area">Midtown</td>
-                        <td class="address">13750 Noel Rd</td>
-                        <td class="distance">0.6 mi</td>
-                        <td class="commute">2 min</td>
-                        <td class="rent">$1,200-$1,300</td>
-                        <td class="size">600-700 sq ft</td>
-                        <td class="budget yes">YES</td>
-                        <td class="gated">Yes</td>
-                        <td class="offers">None advertised</td>
-                        <td class="pros">Recently renovated, walkable</td>
-                        <td class="cons">Smaller units</td>
-                        <td><span class="recommendation new-contender">NEW TOP CONTENDER - Great value</span></td>
-                    </tr>
-                    <tr>
-                        <td class="rank">3</td>
-                        <td class="property-name">Hazel by the Galleria</td>
-                        <td class="area">Galleria</td>
-                        <td class="address">13450 Noel Rd</td>
-                        <td class="distance">0.5 mi</td>
-                        <td class="commute">2 min</td>
-                        <td class="rent">$1,350-$1,450</td>
-                        <td class="size">650-750 sq ft</td>
-                        <td class="budget yes">YES</td>
-                        <td class="gated">Yes</td>
-                        <td class="offers">None advertised</td>
-                        <td class="pros">Modern, pet-friendly, great amenities</td>
-                        <td class="cons">Slightly higher rent</td>
-                        <td><span class="recommendation new-contender">NEW TOP CONTENDER - Excellent location</span></td>
-                    </tr>
-                    <tr>
-                        <td class="rank">4</td>
                         <td class="property-name">Muse at Midtown</td>
+                        <td class="address">13675 Noel Rd, Dallas TX 75240</td>
                         <td class="area">Midtown</td>
-                        <td class="address">13675 Noel Rd</td>
                         <td class="distance">0.4 mi</td>
                         <td class="commute">2 min</td>
                         <td class="rent">$1,399-$1,504</td>
                         <td class="size">673-719 sq ft</td>
-                        <td class="budget borderline">Slightly over (but 6 wks FREE)</td>
-                        <td class="gated">Yes</td>
-                        <td class="offers">6 weeks FREE</td>
-                        <td class="pros">Very close, Modern/newer, Great reviews, Excellent amenities, Good management</td>
-                        <td class="cons">Slightly over budget, Some gate issues</td>
-                        <td><span class="recommendation runner-up">RUNNER-UP - Best if you want luxury</span></td>
+                        <td class="budget borderline">BORDERLINE</td>
+                        <td class="review">Luxurious build, visible security upgrades, friendly management. Occasional cleanliness complaints, limited parking.</td>
                     </tr>
                     <tr>
-                        <td class="rank">5</td>
-                        <td class="property-name">Cortland Galleria</td>
-                        <td class="area">Galleria</td>
-                        <td class="address">5300 Spring Valley Rd</td>
-                        <td class="distance">1.0 mi</td>
-                        <td class="commute">5 min</td>
-                        <td class="rent">$1,300-$1,400</td>
-                        <td class="size">650-750 sq ft</td>
-                        <td class="budget yes">YES</td>
-                        <td class="gated">Yes</td>
-                        <td class="offers">None advertised</td>
-                        <td class="pros">Modern amenities, pet-friendly</td>
-                        <td class="cons">Short drive to office</td>
-                        <td><span class="recommendation solid-option">NEW SOLID OPTION - Good balance</span></td>
-                    </tr>
-                    <tr>
-                        <td class="rank">6</td>
-                        <td class="property-name">Alvista Galleria</td>
-                        <td class="area">Galleria</td>
-                        <td class="address">5020 Spring Valley Rd</td>
-                        <td class="distance">1.0 mi</td>
-                        <td class="commute">5 min</td>
-                        <td class="rent">$1,250-$1,350</td>
-                        <td class="size">650-750 sq ft</td>
-                        <td class="budget yes">YES</td>
-                        <td class="gated">Yes</td>
-                        <td class="offers">None advertised</td>
-                        <td class="pros">Modern fitness center, near transit</td>
-                        <td class="cons">Not walkable</td>
-                        <td><span class="recommendation solid-option">NEW BUDGET OPTION - Good value</span></td>
-                    </tr>
-                    <tr>
-                        <td class="rank">7</td>
+                        <td class="rank">3</td>
                         <td class="property-name">Magnolia Galleria</td>
+                        <td class="address">5450 Spring Valley Rd, Dallas TX 75254</td>
                         <td class="area">Galleria</td>
-                        <td class="address">5450 Spring Valley Rd</td>
                         <td class="distance">1.2 mi</td>
                         <td class="commute">5 min</td>
                         <td class="rent">$1,300-$1,400</td>
                         <td class="size">600-700 sq ft</td>
                         <td class="budget yes">YES</td>
-                        <td class="gated">Yes</td>
-                        <td class="offers">None advertised</td>
-                        <td class="pros">Eco-friendly, rooftop terrace</td>
-                        <td class="cons">Smaller units</td>
-                        <td><span class="recommendation solid-option">NEW ECO-FRIENDLY OPTION - Green living</span></td>
+                        <td class="review">Boutique-style, eco-friendly, rooftop space. Small unit sizes.</td>
                     </tr>
                     <tr>
-                        <td class="rank">8</td>
-                        <td class="property-name">Ventana</td>
-                        <td class="area">Midtown</td>
-                        <td class="address">5555 Spring Valley Rd</td>
-                        <td class="distance">2.5 mi</td>
-                        <td class="commute">5-7 min</td>
-                        <td class="rent">$990-$1,200</td>
-                        <td class="size">610-680 sq ft</td>
+                        <td class="rank">4</td>
+                        <td class="property-name">Alvista Galleria</td>
+                        <td class="address">5020 Spring Valley Rd, Dallas TX 75254</td>
+                        <td class="area">Galleria</td>
+                        <td class="distance">1.0 mi</td>
+                        <td class="commute">5 min</td>
+                        <td class="rent">$1,250-$1,350</td>
+                        <td class="size">650-750 sq ft</td>
                         <td class="budget yes">YES</td>
-                        <td class="gated">Access gates only</td>
-                        <td class="offers">1 month FREE (select)</td>
-                        <td class="pros">BEST PRICE, Good reviews, 9-ft ceilings, Near Galleria</td>
-                        <td class="cons">Not fully gated, Farther from AWS, Smaller units</td>
-                        <td><span class="recommendation budget-choice">BUDGET CHOICE - Best price point</span></td>
+                        <td class="review">Upscale design, resort facilities, responsive staff. Slightly pricey, minor hallway cleanliness issues.</td>
                     </tr>
                     <tr>
-                        <td class="rank">9</td>
+                        <td class="rank">5</td>
                         <td class="property-name">The Ridge on Spring Valley</td>
+                        <td class="address">9750 Spring Valley Rd, Dallas TX 75254</td>
                         <td class="area">North Dallas</td>
-                        <td class="address">9750 Spring Valley Rd</td>
                         <td class="distance">2.5 mi</td>
                         <td class="commute">7 min</td>
                         <td class="rent">$1,250-$1,350</td>
                         <td class="size">700-800 sq ft</td>
                         <td class="budget yes">YES</td>
-                        <td class="gated">Yes</td>
-                        <td class="offers">None advertised</td>
-                        <td class="pros">Updated interiors, near Tollway</td>
-                        <td class="cons">Short commute required</td>
-                        <td><span class="recommendation solid-option">NEW COMMUTER OPTION - Good value</span></td>
+                        <td class="review">Peaceful, long-term residents, friendly team. Delayed maintenance response.</td>
+                    </tr>
+                    <tr>
+                        <td class="rank">6</td>
+                        <td class="property-name">The Entro At Midtown</td>
+                        <td class="address">13750 Noel Rd, Dallas TX 75240</td>
+                        <td class="area">Midtown</td>
+                        <td class="distance">0.6 mi</td>
+                        <td class="commute">2 min</td>
+                        <td class="rent">$1,200-$1,300</td>
+                        <td class="size">600-700 sq ft</td>
+                        <td class="budget yes">YES</td>
+                        <td class="review">Renovated interiors, prime location near Tollway. Mixed reviews on repairs and community noise.</td>
+                    </tr>
+                    <tr>
+                        <td class="rank">7</td>
+                        <td class="property-name">Ventana</td>
+                        <td class="address">5555 Spring Valley Rd, Dallas TX 75254</td>
+                        <td class="area">Midtown</td>
+                        <td class="distance">2.5 mi</td>
+                        <td class="commute">5-7 min</td>
+                        <td class="rent">$990-$1,200</td>
+                        <td class="size">610-680 sq ft</td>
+                        <td class="budget yes">YES</td>
+                        <td class="review">Best value, community events, fast repairs. Older complex, minor noise.</td>
+                    </tr>
+                    <tr>
+                        <td class="rank">8</td>
+                        <td class="property-name">Hazel by the Galleria</td>
+                        <td class="address">13450 Noel Rd, Dallas TX 75240</td>
+                        <td class="area">Galleria</td>
+                        <td class="distance">0.5 mi</td>
+                        <td class="commute">2 min</td>
+                        <td class="rent">$1,350-$1,450</td>
+                        <td class="size">650-750 sq ft</td>
+                        <td class="budget yes">YES</td>
+                        <td class="review">Excellent gym, modern units, premium look. Serious theft and poor management reports.</td>
+                    </tr>
+                    <tr>
+                        <td class="rank">9</td>
+                        <td class="property-name">Verona by Palladium</td>
+                        <td class="address">13650 Montfort Dr, Dallas TX 75240</td>
+                        <td class="area">Galleria</td>
+                        <td class="distance">0.7 mi</td>
+                        <td class="commute">3 min</td>
+                        <td class="rent">$1,400-$1,550</td>
+                        <td class="size">700-800 sq ft</td>
+                        <td class="budget borderline">BORDERLINE</td>
+                        <td class="review">High-end interiors, resort-style pool, strong security. Rent often exceeds quotes.</td>
                     </tr>
                     <tr>
                         <td class="rank">10</td>
+                        <td class="property-name">Windsor by the Galleria</td>
+                        <td class="address">13290 Noel Rd, Dallas TX 75240</td>
+                        <td class="area">Midtown</td>
+                        <td class="distance">0.3 mi</td>
+                        <td class="commute">2 min</td>
+                        <td class="rent">$1,319-$1,424</td>
+                        <td class="size">581 sq ft</td>
+                        <td class="budget no">NO</td>
+                        <td class="review">Luxury setting, walkable to Galleria. High rent and broken gate complaints.</td>
+                    </tr>
+                    <tr>
+                        <td class="rank">11</td>
                         <td class="property-name">Carillon Apartments SIA</td>
+                        <td class="address">11911 Webb Chapel Rd, Dallas TX 75229</td>
                         <td class="area">North Dallas</td>
-                        <td class="address">11911 Webb Chapel Rd</td>
                         <td class="distance">6.0 mi</td>
                         <td class="commute">12-15 min</td>
                         <td class="rent">$1,100-$1,200</td>
                         <td class="size">600-700 sq ft</td>
                         <td class="budget yes">YES</td>
-                        <td class="gated">Yes</td>
-                        <td class="offers">None advertised</td>
-                        <td class="pros">Most affordable option</td>
-                        <td class="cons">Farthest from office</td>
-                        <td><span class="recommendation budget-choice">BUDGET COMMUTER - Lowest price</span></td>
+                        <td class="review">Great value, clean units. Farther commute.</td>
                     </tr>
                     <tr>
-                        <td class="rank">11</td>
+                        <td class="rank">12</td>
+                        <td class="property-name">Cortland Galleria</td>
+                        <td class="address">5300 Spring Valley Rd, Dallas TX 75254</td>
+                        <td class="area">Galleria</td>
+                        <td class="distance">1.0 mi</td>
+                        <td class="commute">5 min</td>
+                        <td class="rent">$1,300-$1,400</td>
+                        <td class="size">650-750 sq ft</td>
+                        <td class="budget yes">YES</td>
+                        <td class="review">Great pet amenities, premium finishes. Noise from Spring Valley Rd traffic.</td>
+                    </tr>
+                    <tr>
+                        <td class="rank">13</td>
                         <td class="property-name">Preston Park Apartments</td>
+                        <td class="address">11900 Preston Rd, Dallas TX 75230</td>
                         <td class="area">North Dallas</td>
-                        <td class="address">11900 Preston Rd</td>
                         <td class="distance">4.5 mi</td>
                         <td class="commute">10-12 min</td>
                         <td class="rent">$1,200-$1,300</td>
                         <td class="size">650-750 sq ft</td>
                         <td class="budget yes">YES</td>
-                        <td class="gated">Yes</td>
-                        <td class="offers">None advertised</td>
-                        <td class="pros">Mature landscaping, near Preston Center</td>
-                        <td class="cons">Longer commute</td>
-                        <td><span class="recommendation solid-option">NEW QUIET OPTION - Peaceful setting</span></td>
+                        <td class="review">Quiet, mature landscaping. Longer drive to AWS.</td>
                     </tr>
                     <tr>
-                        <td class="rank">12</td>
-                        <td class="property-name">Verona by Palladium</td>
-                        <td class="area">Galleria</td>
-                        <td class="address">13650 Montfort Dr</td>
-                        <td class="distance">0.7 mi</td>
-                        <td class="commute">3 min</td>
-                        <td class="rent">$1,400-$1,550</td>
-                        <td class="size">700-800 sq ft</td>
-                        <td class="budget borderline">Borderline</td>
-                        <td class="gated">Gated</td>
-                        <td class="offers">None advertised</td>
-                        <td class="pros">Luxury finishes, resort-style pool</td>
-                        <td class="cons">Upper end of rent exceeds budget</td>
-                        <td><span class="recommendation borderline-option">BORDERLINE - Consider if budget allows</span></td>
-                    </tr>
-                    <tr>
-                        <td class="rank">13</td>
+                        <td class="rank">14</td>
                         <td class="property-name">Villa Piana Apartments</td>
+                        <td class="address">5900 Frankford Rd, Dallas TX 75252</td>
                         <td class="area">Preston Hollow</td>
-                        <td class="address">5900 Frankford Rd</td>
                         <td class="distance">3.5 mi</td>
                         <td class="commute">9 min</td>
                         <td class="rent">$1,300-$1,400</td>
                         <td class="size">750-850 sq ft</td>
                         <td class="budget yes">YES</td>
-                        <td class="gated">Gated</td>
-                        <td class="offers">None advertised</td>
-                        <td class="pros">Spacious units, quiet area</td>
-                        <td class="cons">Farther from office</td>
-                        <td><span class="recommendation solid-option">NEW SPACIOUS OPTION - Quiet living</span></td>
+                        <td class="review">Spacious units, quiet setting. Older finishes.</td>
                     </tr>
                     <tr>
-                        <td class="rank">14</td>
+                        <td class="rank">15</td>
                         <td class="property-name">The Courts at Preston Oaks</td>
+                        <td class="address">12800 Preston Rd, Dallas TX 75230</td>
                         <td class="area">North Dallas</td>
-                        <td class="address">12800 Preston Rd</td>
                         <td class="distance">4.0 mi</td>
                         <td class="commute">10 min</td>
                         <td class="rent">$1,350-$1,450</td>
                         <td class="size">750-850 sq ft</td>
                         <td class="budget yes">YES</td>
-                        <td class="gated">Gated</td>
-                        <td class="offers">None advertised</td>
-                        <td class="pros">Spacious, near Preston Oaks Park</td>
-                        <td class="cons">Longer commute</td>
-                        <td><span class="recommendation solid-option">NEW PARK OPTION - Near green space</span></td>
+                        <td class="review">Park access, large floor plans. Older building.</td>
                     </tr>
                     <tr>
-                        <td class="rank">15</td>
+                        <td class="rank">16</td>
                         <td class="property-name">Hidden Bend Townhomes</td>
+                        <td class="address">15300 Inwood Rd, Addison TX 75001</td>
                         <td class="area">Addison</td>
-                        <td class="address">15300 Inwood Rd</td>
                         <td class="distance">4.0 mi</td>
                         <td class="commute">10 min</td>
                         <td class="rent">$1,400-$1,500</td>
                         <td class="size">700-800 sq ft</td>
                         <td class="budget yes">YES</td>
-                        <td class="gated">Gated</td>
-                        <td class="offers">None advertised</td>
-                        <td class="pros">Townhome layout, private patios</td>
-                        <td class="cons">Far from office, townhome maintenance</td>
-                        <td><span class="recommendation solid-option">NEW TOWNHOME OPTION - More space</span></td>
+                        <td class="review">Townhome privacy, green surroundings. Distance from Midtown, aging appliances.</td>
                     </tr>
                     <tr>
-                        <td class="rank">16</td>
+                        <td class="rank">17</td>
                         <td class="property-name">Addison Apartments at the Park</td>
+                        <td class="address">15950 Dallas Pkwy, Addison TX 75001</td>
                         <td class="area">Addison</td>
-                        <td class="address">15950 Dallas Pkwy</td>
                         <td class="distance">5.0 mi</td>
                         <td class="commute">12 min</td>
                         <td class="rent">$1,300-$1,400</td>
                         <td class="size">650-750 sq ft</td>
                         <td class="budget yes">YES</td>
-                        <td class="gated">Gated</td>
-                        <td class="offers">None advertised</td>
-                        <td class="pros">Near Addison Circle Park, walking trails</td>
-                        <td class="cons">Far from office, traffic concerns</td>
-                        <td><span class="recommendation solid-option">NEW PARK SETTING - Scenic area</span></td>
+                        <td class="review">Scenic area, walkable trails. Traffic delays in commute.</td>
                     </tr>
                     <tr>
-                        <td class="rank">17</td>
+                        <td class="rank">18</td>
                         <td class="property-name">The Dorchester</td>
+                        <td class="address">5950 Sherry Ln, Dallas TX 75225</td>
                         <td class="area">North Dallas</td>
-                        <td class="address">5950 Sherry Lane</td>
                         <td class="distance">5.0 mi</td>
                         <td class="commute">12 min</td>
                         <td class="rent">$1,450-$1,550</td>
                         <td class="size">800-900 sq ft</td>
-                        <td class="budget borderline">Borderline</td>
-                        <td class="gated">Gated</td>
-                        <td class="offers">None advertised</td>
-                        <td class="pros">Upscale, large units</td>
-                        <td class="cons">Far from office, borderline on budget</td>
-                        <td><span class="recommendation borderline-option">BORDERLINE - Upscale but far</span></td>
-                    </tr>
-                    <tr>
-                        <td class="rank">18</td>
-                        <td class="property-name">Windsor by the Galleria</td>
-                        <td class="area">Midtown</td>
-                        <td class="address">13290 Noel Rd</td>
-                        <td class="distance">0.3 mi</td>
-                        <td class="commute">2 min</td>
-                        <td class="rent">$1,319-$1,424 (studios only)<br>$1,500+ for 700 sq ft</td>
-                        <td class="size">581 sq ft (studio) or 700+ sq ft</td>
-                        <td class="budget no">Over budget for size</td>
-                        <td class="gated">Yes (gates often broken)</td>
-                        <td class="offers">None</td>
-                        <td class="pros">Luxury finishes, Green Built, Resort pool, 2-story gym, Across from Galleria</td>
-                        <td class="cons">Over budget for 700 sq ft, Management issues, Broken gates, Small studios</td>
-                        <td><span class="recommendation avoid">AVOID - Too expensive for your needs</span></td>
+                        <td class="budget borderline">BORDERLINE</td>
+                        <td class="review">Upscale interiors, quiet. Slightly over budget.</td>
                     </tr>
                     <tr>
                         <td class="rank">19</td>
                         <td class="property-name">The Lana</td>
+                        <td class="address">14332 Montfort Dr, Dallas TX 75254</td>
                         <td class="area">Preston Hollow</td>
-                        <td class="address">14332 Montfort Dr</td>
                         <td class="distance">3.2 mi</td>
                         <td class="commute">8 min</td>
                         <td class="rent">$1,165-$1,299</td>
                         <td class="size">648-680 sq ft</td>
                         <td class="budget yes">YES</td>
-                        <td class="gated">Gates ALWAYS broken</td>
-                        <td class="offers">1 month FREE (select)</td>
-                        <td class="pros">Affordable, 4 pools, 9-ft ceilings, Attached garages</td>
-                        <td class="cons">MAJOR ISSUES: Gates always broken, Poor management, NO security cameras, Package theft, Terrible reviews</td>
-                        <td><span class="recommendation avoid">AVOID - Safety concerns</span></td>
+                        <td class="review">Affordable, good layout. Major safety and management issues.</td>
                     </tr>
                     <tr>
                         <td class="rank">20</td>
                         <td class="property-name">Regal Court</td>
+                        <td class="address">5800 Preston View Blvd, Dallas TX 75240</td>
                         <td class="area">Preston Hollow/North Dallas</td>
-                        <td class="address">5800 Preston View Blvd</td>
                         <td class="distance">3.8 mi</td>
                         <td class="commute">10 min</td>
                         <td class="rent">$1,199-$1,280</td>
                         <td class="size">686 sq ft</td>
                         <td class="budget yes">YES</td>
-                        <td class="gated">Gates rarely work</td>
-                        <td class="offers">None</td>
-                        <td class="pros">Affordable, Spacious units, 11 floor plans</td>
-                        <td class="cons">MAJOR ISSUES: Gates broken, Car thefts, MURDER in parking lot reported, Poor reviews, Electrical problems</td>
-                        <td><span class="recommendation avoid">AVOID - Serious safety issues</span></td>
+                        <td class="review">Spacious floor plans. Multiple theft and electrical problems.</td>
                     </tr>
                     <tr>
                         <td class="rank">21</td>
                         <td class="property-name">City North</td>
+                        <td class="address">7373 Valley View Ln, Dallas TX 75240</td>
                         <td class="area">Preston Hollow</td>
-                        <td class="address">7373 Valley View Ln</td>
                         <td class="distance">4.5 mi</td>
                         <td class="commute">11 min</td>
                         <td class="rent">$1,217-$1,275</td>
                         <td class="size">652 sq ft</td>
                         <td class="budget yes">YES</td>
-                        <td class="gated">Gates don't work</td>
-                        <td class="offers">None</td>
-                        <td class="pros">Affordable, Granite counters, Stainless appliances</td>
-                        <td class="cons">MAJOR ISSUES: Gates never work, Burglaries, Very noisy, Poor management, Terrible reviews</td>
-                        <td><span class="recommendation avoid">AVOID - Safety red flags</span></td>
+                        <td class="review">Affordable modern upgrades. Constant gate and burglary issues.</td>
                     </tr>
                     <tr>
                         <td class="rank">22</td>
                         <td class="property-name">MAA Eastside</td>
+                        <td class="address">1801 N Greenville Ave, Richardson TX 75081</td>
                         <td class="area">Richardson</td>
-                        <td class="address">1801 N Greenville Ave</td>
                         <td class="distance">8 mi</td>
                         <td class="commute">15-20 min</td>
                         <td class="rent">$1,247-$1,295</td>
-                        <td class="size">752-774 sq ft (studios)</td>
+                        <td class="size">752-774 sq ft</td>
                         <td class="budget yes">YES</td>
-                        <td class="gated">Gated garages</td>
-                        <td class="offers">1-2 months FREE</td>
-                        <td class="pros">Two gated garages, Modern, 2 pools, Fitness center, No breed restrictions, Amphitheater park</td>
-                        <td class="cons">FARTHEST from AWS, Long commute, Gate security issues, Unauthorized parking, Mixed reviews</td>
-                        <td><span class="recommendation avoid">AVOID - Too far from office for daily commute</span></td>
+                        <td class="review">Modern community, gated garages. Long commute, parking enforcement.</td>
                     </tr>
                 </tbody>
             </table>
@@ -458,24 +360,16 @@
         
         <div class="legend">
             <div class="legend-item">
-                <div class="legend-color" style="background-color: #d4edda; border: 1px solid #c3e6cb;"></div>
-                <span>Top Choice / Budget Choice (Recommended)</span>
+                <div class="legend-color" style="background-color: #4ade80;"></div>
+                <span>Recommended</span>
             </div>
             <div class="legend-item">
-                <div class="legend-color" style="background-color: #cce5ff; border: 1px solid #b3d7ff;"></div>
-                <span>Runner-Up (Good Alternative)</span>
+                <div class="legend-color" style="background-color: #fbbf24;"></div>
+                <span>Consider with Caution</span>
             </div>
             <div class="legend-item">
-                <div class="legend-color" style="background-color: #fff3cd; border: 1px solid #ffeaa7;"></div>
-                <span>Caution / Borderline (Consider Carefully)</span>
-            </div>
-            <div class="legend-item">
-                <div class="legend-color" style="background-color: #e2e3e5; border: 1px solid #d6d8db;"></div>
-                <span>Solid Option (Acceptable)</span>
-            </div>
-            <div class="legend-item">
-                <div class="legend-color" style="background-color: #f8d7da; border: 1px solid #f1aeb5;"></div>
-                <span>Avoid (Not Recommended)</span>
+                <div class="legend-color" style="background-color: #f87171;"></div>
+                <span>Not Recommended</span>
             </div>
         </div>
         

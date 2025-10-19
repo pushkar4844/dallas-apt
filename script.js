@@ -33,8 +33,8 @@ function filterTable() {
     for (let i = 1; i < rows.length; i++) {
         let row = rows[i];
         let area = row.getElementsByTagName('td')[2].textContent.toLowerCase();
-        let budget = row.getElementsByTagName('td')[8].textContent.toLowerCase();
-        let distance = parseFloat(row.getElementsByTagName('td')[4].textContent);
+        let budget = row.getElementsByTagName('td')[7].textContent.toLowerCase();
+        let distance = parseFloat(row.getElementsByTagName('td')[3].textContent);
         
         let areaMatch = areaFilter === '' || area.includes(areaFilter);
         let budgetMatch = budgetFilter === '' || budget.includes(budgetFilter);
