@@ -147,7 +147,8 @@ h1 {
     width: 100%;
     padding: 12px 40px 12px 20px;
     border: 1px solid #333333;
-    border-radius: 10px;
+    border-radius
+border-radius: 10px;
     background-color: #1a1a1a;
     color: #e2e8f0;
     font-size: 1rem;
@@ -362,6 +363,7 @@ footer {
     }
 }
 
+/* Enhanced Mobile Responsiveness */
 @media (max-width: 768px) {
     .header-content {
         flex-direction: column;
@@ -374,35 +376,145 @@ footer {
         justify-content: space-between;
     }
     
-    .table-container {
-        padding: 15px;
-    }
-    
-    th, td {
-        padding: 10px;
-        font-size: 0.75rem;
-    }
-    
-    .recommendation {
-        font-size: 0.7rem;
-        padding: 4px 8px;
+    .destination {
+        font-size: 0.8rem;
+        padding: 10px 20px;
+        word-wrap: break-word;
     }
     
     .filter-container {
         flex-direction: column;
         align-items: stretch;
+        gap: 12px;
+        padding: 15px 20px;
     }
     
     .search-box {
         max-width: 100%;
     }
     
-    .review {
-        max-width: 120px;
+    .filter-group {
+        width: 100%;
+        justify-content: space-between;
     }
     
-    .address {
-        max-width: 100px;
+    .filter-group select {
+        flex: 1;
+        min-width: 0;
+    }
+    
+    /* Card-based layout for mobile */
+    .table-container {
+        padding: 10px;
+    }
+    
+    table {
+        display: block;
+    }
+    
+    thead {
+        display: none;
+    }
+    
+    tbody {
+        display: block;
+    }
+    
+    tr {
+        display: block;
+        margin-bottom: 20px;
+        background-color: #1a1a1a !important;
+        border-radius: 12px;
+        padding: 15px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+        border: 1px solid #333333;
+    }
+    
+    tr:hover {
+        background-color: #0a0a0a !important;
+    }
+    
+    td {
+        display: block;
+        text-align: left;
+        padding: 8px 0;
+        border: none;
+        max-width: 100% !important;
+    }
+    
+    td::before {
+        content: attr(data-label);
+        font-weight: 600;
+        color: #94a3b8;
+        display: inline-block;
+        margin-right: 10px;
+        min-width: 100px;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+    }
+    
+    .rank {
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 10px 0;
+        border-bottom: 2px solid #333333;
+        margin-bottom: 10px;
+    }
+    
+    .rank::before {
+        content: "";
+        display: none;
+    }
+    
+    .property-name {
+        font-size: 1.2rem;
+        padding-bottom: 5px;
+    }
+    
+    .review {
+        max-width: 100%;
+        line-height: 1.5;
+        padding-top: 10px;
+        border-top: 1px solid #333333;
+        margin-top: 10px;
+    }
+    
+    .legend {
+        flex-direction: column;
+        gap: 12px;
+    }
+    
+    .legend-item {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.4rem;
+    }
+    
+    .mini-stat {
+        padding: 6px 12px;
+        min-width: 50px;
+    }
+    
+    .mini-value {
+        font-size: 1.2rem;
+    }
+    
+    .mini-label {
+        font-size: 0.65rem;
+    }
+    
+    .destination {
+        font-size: 0.75rem;
+        padding: 8px 15px;
+    }
+    
+    td::before {
+        min-width: 80px;
         font-size: 0.7rem;
     }
 }

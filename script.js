@@ -7,9 +7,9 @@ document.getElementById('searchInput').addEventListener('keyup', function() {
     for (let i = 1; i < rows.length; i++) {
         let row = rows[i];
         let property = row.getElementsByTagName('td')[1].textContent.toLowerCase();
-        let area = row.getElementsByTagName('td')[2].textContent.toLowerCase();
+        let address = row.getElementsByTagName('td')[2].textContent.toLowerCase();
         
-        if (property.includes(searchValue) || area.includes(searchValue)) {
+        if (property.includes(searchValue) || address.includes(searchValue)) {
             row.style.display = '';
         } else {
             row.style.display = 'none';
@@ -32,9 +32,10 @@ function filterTable() {
     
     for (let i = 1; i < rows.length; i++) {
         let row = rows[i];
-        let area = row.getElementsByTagName('td')[2].textContent.toLowerCase();
-        let budget = row.getElementsByTagName('td')[7].textContent.toLowerCase();
-        let distance = parseFloat(row.getElementsByTagName('td')[3].textContent);
+        let area = row.getElementsByTagName('td')[3].textContent.toLowerCase();
+        let budget = row.getElementsByTagName('td')[8].textContent.toLowerCase();
+        let distanceText = row.getElementsByTagName('td')[4].textContent;
+        let distance = parseFloat(distanceText);
         
         let areaMatch = areaFilter === '' || area.includes(areaFilter);
         let budgetMatch = budgetFilter === '' || budget.includes(budgetFilter);
