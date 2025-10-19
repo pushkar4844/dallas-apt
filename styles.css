@@ -116,6 +116,7 @@ h1 {
     border: 2px solid #333333;
     display: block;
     object-fit: contain;
+    max-height: 600px;
 }
 
 .filter-container {
@@ -410,6 +411,7 @@ footer {
         border-radius: 8px;
         border: 1px solid #333333;
         box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+        max-height: 400px;
     }
     
     .filter-container {
@@ -550,6 +552,7 @@ footer {
     .map-image {
         border-radius: 6px;
         border: 1px solid #333333;
+        max-height: 300px;
     }
     
     td::before {
